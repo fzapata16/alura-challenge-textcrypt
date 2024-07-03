@@ -1,0 +1,259 @@
+/* 
+  CSS for challenger Encriptador de texto
+  alura latam 
+  Fernando Zapata Gallego
+  Junio 2024 
+
+  use ctc to identify properties. ex: div-ctc-row
+*/
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Press+Start+2P&display=swap');
+
+:root {
+  --color1: #b9c7f8;
+  --color2: #171717;
+  --color3: #F3F5FC;
+  --color4: #0A3871;
+  --color5: #D8DFE8;
+  --primary-font: "Press Start 2P", system-ui;
+  --secondary-font: "Fira Code";
+
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+
+  background-color: var(--color3);
+}
+
+
+header {
+  flex-flow: row;
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 80px;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.challenge-img {
+
+  height: 60px;
+}
+
+
+main {
+  width: 100%;
+  height: (100vh - 130px);
+}
+
+.div__row {
+  display: table;
+  flex-flow: row;
+  align-items: center;
+  align-self: center;
+  vertical-align: middle;
+}
+
+.div__row img {
+  max-height: 80px;
+  float: left;
+  display: block;
+  margin-left: 20px;
+}
+
+.div__row .title {
+  margin-left: 10px;
+  float: left;
+  vertical-align: middle;
+  float: left;
+  height: 100%;
+
+}
+
+
+h3 {
+  font-family: var(--primary-font);
+  font-size: 1rem;
+}
+
+h4 {
+
+  font-family: var(--secondary-font);
+  font-size: 1em;
+}
+
+h5 {
+  font-weight: normal;
+  color: var(--color4);
+}
+
+.container__fluid {
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+  scrollbar-width: 10px;
+  padding: 5px;
+  height: 80vh;
+  gap: 10px;
+  width: 100%;
+}
+
+
+.input {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  width: 60%;
+}
+
+.input textarea {
+  border: none;
+  width: 100%;
+  background-color: transparent;
+  /* border: var(--color1) solid 1px; */
+  resize: none;
+  font-family: var(--secondary-font);
+  height: 100%;
+}
+
+.input textarea:focus {
+  padding: 10px;
+  outline: none;
+  border: none;
+  background-color: white;
+  border-radius: 12px;
+}
+
+.input__topbar {
+  display: flex;
+  justify-content: end;
+  padding: 0px 0px 10px 10px;
+}
+
+.input__topbar span {
+  font-weight: bold;
+  padding: 3px 5px 3px 5px;
+
+}
+
+.input__topbar span:hover {
+  cursor: pointer;
+  color: var(--color1);
+  background-color: var(--color4);
+}
+
+.output textarea {
+  border: none;
+  width: 100%;
+  padding: 10px;
+  background-color: transparent;
+  /* border: var(--color1) solid 1px; */
+  resize: none;
+  font-family: var(--secondary-font);
+  height: 98%;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+.container__fluid__buttons {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  vertical-align: middle;
+  padding: 1%;
+  gap: 10px;
+}
+
+button {
+  cursor: pointer;
+  border-radius: 6px;
+  border: none;
+  height: 40px;
+  width: 100px;
+
+}
+
+.crypt {
+  color: var(--color4);
+  border: var(--color4) solid 1px;
+}
+
+.decrypt {
+  color: var(--color4);
+  background-color: var(--color5);
+}
+
+.new,
+.crypt,
+.decrypt {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 4px;
+  height: auto;
+
+}
+
+.output {
+  display: flex;
+  flex-direction: column;
+  justify-content: top;
+  width: 48%;
+}
+
+.input,
+.output {
+  background-color: var(--color3);
+  border: var(--color5) solid 1px;
+  display: flex;
+  border-radius: 10px;
+}
+
+.output__topbar {
+  width: 100%;
+  justify-content: end;
+  text-align: right;
+  padding: 5px 20px 0px 10px;
+}
+
+.output__topbar button {
+  background-color: var(--color4);
+  width: auto;
+  padding: 0px 15px;
+}
+
+.output img {
+  height: 80%;
+  object-fit: contain;
+
+}
+
+footer {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  padding: 15px;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  height: 70px;
+  background-color: antiquewhite;
+}
+
+
+.icon {
+  height: 24px;
+}
