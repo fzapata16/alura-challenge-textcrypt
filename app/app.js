@@ -7,8 +7,8 @@ const pasteButton = document.getElementById("pasteButton");
 const decryptButton = document.getElementById("decrypt");
 const decriptImage = document.getElementById("decriptImage");
 const newButton = document.getElementById("newButton");
-const imageUno = "/assets/img/1.png";
-const imageDos = "/assets/img/2.gif";
+const imageUno = "./assets/img/1.png";
+const imageDos = "./assets/img/2.gif";
 const defaultValue = "escriba aquí el texto. *";
 
 const mapCryter = {
