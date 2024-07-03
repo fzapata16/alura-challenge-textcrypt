@@ -1,11 +1,18 @@
-# ALURA LATAM CHALLENGE
+# Challenge Encriptador de texto
 
-# Encriptador de texto
+## Prácticando lógica de programación
 
-### Fernando A. Zapata Gallego
+Con esta práctica deseo demostrar lo aprendido durante el curso y así asegurar mi puesto en la fase de especialización de ONE.
 
-2024
+## Autor
 
-textcrypt
+- Fernando A. Zapata Gallego
+- [@fzapata](https://www.github.com/fzapata)
 
-`let's go code`
+## Features
+
+- Encriptador y desencriptador de texto
+- HTML
+- CSS
+- JavaScript
+- Interfaz amigable
