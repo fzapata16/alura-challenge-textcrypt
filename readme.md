@@ -9,7 +9,7 @@ Con esta práctica deseo demostrar lo aprendido durante el curso y así asegurar
 ## Autor
 
 - Fernando A. Zapata Gallego
-- [@fzapata](https://www.github.com/fzapata)
+- [@fzapata](https://www.github.com/fzapata16)
 
 ## Features
 
